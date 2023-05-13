@@ -13,6 +13,6 @@ app.get("/api", async (req, res) => {
 });
 
 
-app.listen(3700, ()=>{
+app.listen(80, ()=>{
   console.log("Server started")
 });
